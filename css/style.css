@@ -1,0 +1,19 @@
+@import "resets.css";
+@import "layout.css";
+
+:root {
+    --Very-Dark-Blue: #131518;
+    --Dark-Blue: #262E38;
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    --Orange: #FC7614;
+    --Light-Grey: #969FAD;
+    --Medium-Gray: #7C8798;
+}
+
+.page-wrapper {
+    background: var(--Very-Dark-Blue);
+}
+.container {
+    max-width: 412px;
+    max-height: 416px;
+}
